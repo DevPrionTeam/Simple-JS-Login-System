@@ -1,5 +1,4 @@
 # Simple-JS-Login-System
-Sistema de login bem simples feito com html css e JS.
 
 O foco deste repositorio é, em sua essencia, ajudar pessoas que procuram uma solução simples e eficaz em relação a um sistema de login com JS
 usando cookies como meio principal de armazenamento de dados referente ao login.
