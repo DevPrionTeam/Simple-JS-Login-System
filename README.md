@@ -12,5 +12,6 @@ Este repositorio contem :
 - Forma de validação de paginas baseado nos cookies.
 
 O sistema, no entanto, usa como base o login e senha digitado na hora pelo usuario. Nao contendo um banco de dados.
+
 O JS referente ao login e cookies esta totalmente documentado, tendo incluso tambem, os lugares para fazer sua validação com banco de dados,
 caso seja o caso de seu projeto.
