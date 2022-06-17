@@ -1,0 +1,135 @@
+body{
+    background-color: rgba(255, 255, 255, 0);
+    background-image: url('../imgs/background.gif');
+    background-blend-mode: lighten;
+    background-size: cover;
+}
+
+.loginbox{
+    background-color: rgba(48, 48, 48, 0.693);
+    border-radius: 8px;
+    width: 300px;
+    height: 400px;
+    border-style: none;
+    border-top-color: rgb(255, 0, 0);
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-top-style: solid;
+    border-bottom-color: rgb(255, 0, 0);
+    border-bottom-style: solid;
+    box-shadow: 20px;
+}
+
+.loginbox input[type=text]{
+    border-radius: 5px;
+    width: 200px;
+    border-style: none;
+    height: 40px;
+    margin-bottom: 10px;
+    margin-top: 120px;
+    margin-left: 35px;
+    padding-left: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.334);
+    -webkit-transition: 0.1s ease-in;
+    -moz-transition: 0.1s ease-in;
+    -o-transition: 0.1s ease-in;
+    transition: 0.1s ease-in;
+}
+
+.loginbox input[type=password]{
+    border-radius: 5px;
+    width: 200px;
+    border-style: none;
+    height: 40px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 35px;
+    padding-left: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.334);
+    -webkit-transition: 0.1s ease-in;
+    -moz-transition: 0.1s ease-in;
+    -o-transition: 0.1s ease-in;
+    transition: 0.1s ease-in;
+}
+
+.loginbox input:hover{
+    background-color: rgba(0, 0, 0, 0.527);
+    -webkit-transition: 0.1s ease-in;
+    -moz-transition: 0.1s ease-in;
+    -o-transition: 0.1s ease-in;
+    transition: 0.1s ease-in;
+}
+.loginbox input::placeholder{
+    color: rgb(255, 255, 255);
+    font-size: 11px;
+}
+
+.title{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    position: fixed;
+    margin-left: 75px;
+    margin-top: 40px;
+    margin-right: 50px;
+}
+
+.loginbutton{
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+    margin-left: 95px;
+    margin-top: 55px;
+    border-left-style: solid;
+    border-left-color: red;
+    border-top-style: none;
+    border-bottom-style: none;
+    border-right-style: solid;
+    border-right-color: red;
+    border-width: 4px;
+    cursor: pointer;
+    background-image: url('../imgs/login.png');
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.259);
+}
+
+.logoutbutton{
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+    margin-left: 95px;
+    margin-top: 90px;
+    border-left-style: solid;
+    border-left-color: red;
+    border-top-style: none;
+    border-bottom-style: none;
+    border-right-style: solid;
+    border-right-color: red;
+    border-width: 4px;
+    cursor: pointer;
+    background-image: url('../imgs/logout.png');
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.259);
+}
+
+.logoutbutton:hover{
+    background-color: rgba(0, 0, 0, 0.745);
+    -webkit-transition: 0.1s ease-in;
+    -moz-transition: 0.1s ease-in;
+    -o-transition: 0.1s ease-in;
+    transition: 0.1s ease-in;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JS Login System</title>
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+        <!-- css -->
+        <link rel="stylesheet" href="./css/login.css">
+
+        <!-- JS -->
+       <script type="text/javascript" src="./javascripts/login.js"></script>
+    </head>
+    <body>
+        <!-- Validate if theres any cookie from this website on your computer. -->
+       <script type="text/javascript">
+            if(!getCookie("usuario") && !getCookie("senha")){
+                location.href = "./login.html";
+                // if dont then redirect to the login page.
+                // if it has cookies related to it , then load this page.
+            }
+       </script>
+
+        <div class="loginbox">
+            <span class="title">Welcome <span id="name"></span> !</span>
+            <script type="text/javascript" src="./javascripts/GetCookiesOnHTML.js"></script><!-- JS to index cookies to html (gross way) -->
+
+            <button onclick="logout();" name="logout" class="logoutbutton" />
+        </div>
+    </body>
+</html>
